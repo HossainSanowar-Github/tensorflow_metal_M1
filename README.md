@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=_CO-ND1FTOU&t=533s&ab_channel=JeffHeaton
+
 1.	Terminal: python –version # get the python version
 2.	Terminal:  Which python # python install location
 3.	Terminal: ls -l /usr/bin/python #details location of python
