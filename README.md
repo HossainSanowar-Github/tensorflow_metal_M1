@@ -73,11 +73,12 @@ Install Miniforge:
 6.	which python
 7.	conda init zsh
 8.	conda install -y jupyter
-9.	conda env create -f tensorflow-apple-metal.yml -n tensorflow
-10.	conda install nb_conda
-11.	python -m ipykernel install --user --name tensorflow --display-name "Python 3.9 (tensorflow)"
-12.	jupyter notebook
-13.	
+9.	conda env create -f tensorflow-apple-metal.yml -n tensorflow # just delete it and recreate it if we want to update packages or modules
+10.	conda activate tensorflow
+11.	conda install nb_conda
+12.	python -m ipykernel install --user --name tensorflow --display-name "Python 3.9 (tensorflow)"
+13.	jupyter notebook
+14.	
 
 
 ![image](https://user-images.githubusercontent.com/52736275/146691484-810893c1-5813-4582-9b9c-a644271540b6.png)
